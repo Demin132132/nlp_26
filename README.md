@@ -58,27 +58,25 @@ Manhattan_LSTM. В модели есть две идентичные сети LS
 Первоначальные эмбеддинги для слов берутся из GoogleNews-vectors-negative300.bin.gz, загрузить можно по
 [ссылке](https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit?resourcekey=0-wjGZdNAUop6WykTtMip30g).
 
-Параметры модели:
+Параметры моделей и результаты валидации на тестовой выборке представлены в таблице.
 
-|      Params       |       |
-|:-----------------:|:-----:|
-|    Hidden Size    |  50   |
-|    Batch Size     |  32   |
-| Max. input length |  20   |
-|   Learning rate   | 0.001 |
-| Number of epochs  |  100  |
+|       Model       | Manhattan_LSTM_1 | Manhattan_LSTM_2 | Manhattan_LSTM_3 |
+|:-----------------:|:----------------:|:----------------:|:----------------:|
+|      Params       |      Params      |      Params      |      Params      |
+|    Hidden Size    |        50        |        30        |        30        |
+|    Batch Size     |        32        |        32        |        16        |
+| Max. input length |        20        |        10        |        10        |
+|   Learning rate   |      0.001       |       0.01       |       0.02       |
+| Number of epochs  |       100        |       100        |       100        |
+|      Metrix       |      Metrix      |      Metrix      |      Metrix      |
+|     Accuracy      |      98.86       |      97.83       |      99.81       |
+|       Loss        |       3.90       |       4.31       |      10.57       |
+|     Precision     |      94.59       |      93.62       |      94.64       |
+|      Recall       |      85.36       |      83.38       |      77.85       |
 
-Обученную модель можно загрузить по [ссылке](). 
-Результаты валидации на тестовой выборке представлены в таблице.
+График потерь Manhattan_LSTM_1:
 
-|     Model      | Accuracy  | Loss | Precision | Recall  |
-|:--------------:|:---------:|:----:|:---------:|:-------:|
-| Manhattan_LSTM |   99.86   | 3.90 |   94.59   |  85.36  |
-
-
-График потерь:
-
-[img]()
+[img](https://github.com/)
 
 
 ## Comparison 
