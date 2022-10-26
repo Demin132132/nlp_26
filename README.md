@@ -57,6 +57,8 @@ Manhattan_LSTM. В модели есть две идентичные сети LS
 Первоначальные эмбеддинги для слов берутся из GoogleNews-vectors-negative300.bin.gz, загрузить можно по
 [ссылке](https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit?resourcekey=0-wjGZdNAUop6WykTtMip30g).
 
+Характеристики машины, на которой проводилось обучение: Intel Core i5-9500, NVIDIA GeForce RTX 2080, 16 Gb RAM.
+
 Параметры моделей и результаты валидации на тестовой выборке представлены в таблице.
 
 |       Model       | Manhattan_LSTM_1 | Manhattan_LSTM_2 | Manhattan_LSTM_3 |
@@ -83,7 +85,7 @@ Manhattan_LSTM. В модели есть две идентичные сети LS
 
 |                Model                | Accuracy | Precision | Recall  |
 |:-----------------------------------:|:--------:|:---------:|---------|
-|          Manhattan_LSTM_1           |  99.86   |   94.59   |  85.36  |
+|          Manhattan_LSTM_1           |  98.86   |   94.59   |  85.36  |
 |         Fuzzywuzzy(WRatio)          |  79.34   |   1.900   |  56.13  |
 |     Fuzzywuzzy(token_set_ratio)     |  96.89   |   6.001   |  23.37  |
 | Fuzzywuzzy(partial_token_set_ratio) |  60.73   |   1.715   |  97.55  |
