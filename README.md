@@ -22,7 +22,7 @@ $ python Datasets/csv_to_tsv.py
 $ python PyTorch/main.py
 ````
 
-3) Инференс:
+3) Инференс (TO DO):
 
 ````
 $ python inf.py
@@ -81,7 +81,7 @@ Manhattan_LSTM. В модели есть две идентичные сети LS
 
 ## Comparison 
 Для оценки качества работы обученной сиамской нейронной сети результаты ее работы сравнили с обработкой NLP библиотеки
-SpaCy.
+SpaCy (TO DO).
 
 |     Model      | Accuracy | Precision | Recall |
 |:--------------:|:--------:|:---------:|:------:|
