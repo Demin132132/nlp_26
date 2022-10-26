@@ -76,7 +76,7 @@ Manhattan_LSTM. В модели есть две идентичные сети LS
 
 График потерь Manhattan_LSTM_1:
 
-[img](https://github.com/)
+<p align="center"><img src="./saved_figure.png" alt="detection" width="70%"></p>
 
 
 ## Comparison 
